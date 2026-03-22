@@ -32,7 +32,7 @@ const PROJECTS = [
     tech: ["React", "Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JS"],
     nebula: "linear-gradient(135deg, #1a0a3e 0%, #0a1a3e 50%, #0a2030 100%)",
     glow: "#6EE7B7",
-    link: "https://github.com/prateekr202-blip/Campus-Administration-Portal-"
+    link: "https://college-portal-iota.vercel.app"
   },
 ];
 
