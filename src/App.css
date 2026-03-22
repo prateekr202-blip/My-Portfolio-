@@ -188,10 +188,12 @@ ul      { list-style: none; }
 }
 .btn-primary:hover { background: linear-gradient(135deg, #25468a, #3a2285); box-shadow: 0 0 40px rgba(125,211,252,0.35); transform: translateY(-3px); }
 .btn-ghost {
-  padding: 0.85rem 2rem; border: 1.5px solid var(--border2); border-radius: 12px;
+  padding: 0.85rem 2rem;
+  background: linear-gradient(135deg, #1e3a6e, #2d1b69);
+  border: 1.5px solid var(--star-blue); border-radius: 12px;
   font-family: var(--font-display); font-size: 0.75rem; font-weight: 600;
-  letter-spacing: 0.08em; color: var(--muted); transition: var(--trans);
-  background: rgba(255,255,255,0.025);
+  letter-spacing: 0.08em; color: var(--star-blue); transition: var(--trans);
+  box-shadow: 0 0 24px rgba(125,211,252,0.18), inset 0 1px 0 rgba(125,211,252,0.1);
 }
 .btn-ghost:hover { border-color: var(--aurora); color: var(--aurora); box-shadow: 0 0 24px rgba(110,231,183,0.2); transform: translateY(-3px); }
 
