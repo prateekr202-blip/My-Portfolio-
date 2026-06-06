@@ -1,62 +1,58 @@
-# Prateek Rai · Portfolio
+# Prateek Portfolio
 
-A bold, expressive personal portfolio website built with React + Vite.
+A modern, responsive developer portfolio built with React and Vite to showcase projects, skills, and development journey.
 
-## ✨ Features
-- Custom animated cursor
-- Animated hero with floating photo card + rotating gradient ring
-- Animated skill bars triggered on scroll
-- Project cards with glow hover effects
-- Alternating timeline with scroll-reveal
-- Contact cards
-- Fully responsive (mobile-friendly)
-- Google Fonts: Syne + Space Mono + DM Sans
+## About the Project
 
----
+Prateek Portfolio is a modern, responsive developer portfolio built with React and Vite. The project is designed to showcase projects, technical skills, achievements, and ongoing learning in an engaging and visually appealing way. It features smooth animations, interactive UI elements, project highlights, a skills section, a timeline, and contact information, providing visitors with a comprehensive overview of the developer's work and capabilities. The portfolio emphasizes performance, responsiveness, and clean design while serving as a central hub for personal branding and professional presentation.
 
-## 🚀 Setup & Run
+## Features
 
-### 1. Install dependencies
+- Modern and responsive design
+- Interactive UI and smooth animations
+- Hero section with profile showcase
+- Skills and technologies section
+- Project showcase
+- Timeline section
+- Contact section
+- Mobile-friendly layout
+- Fast performance powered by Vite
+
+## Tech Stack
+
+| Category  | Technologies                          |
+|-----------|---------------------------------------|
+| Frontend  | React, JavaScript, HTML5, CSS3, Vite  |
+| Tools     | Git, GitHub, GitHub Pages             |
+
+## Installation
+
 ```bash
+git clone <repository-url>
+cd prateek-portfolio
 npm install
-```
-
-### 2. Start dev server
-```bash
 npm run dev
 ```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### 3. Build for production
+## Build
+
 ```bash
 npm run build
+npm run preview
 ```
 
----
+## Deployment
 
-## 📁 File Structure
-```
-portfolio/
-├── index.html
-├── package.json
-├── vite.config.js
-└── src/
-    ├── main.jsx
-    ├── App.jsx        ← All components
-    ├── App.css        ← All styles
-    └── index.css
+```bash
+npm run deploy
 ```
 
----
+## Future Improvements
 
-## 🖼️ Adding Your Photo
-1. Drop your photo (e.g. `photo.jpg`) into `src/assets/`
-2. In `App.jsx`, replace the `photo-placeholder` div with:
-```jsx
-import myPhoto from './assets/photo.jpg';
-// ...
-<img src={myPhoto} alt="Prateek Rai" style={{ width:'100%', height:'100%', objectFit:'cover', borderRadius:'30px' }} />
-```
-
-## 🔗 Updating Social Links
-In `App.jsx`, find the Contact section and update `href` values for GitHub and LinkedIn when ready.
+- [ ] Dark/Light theme toggle
+- [ ] AI-powered portfolio assistant
+- [ ] Project filtering
+- [ ] Blog section
+- [ ] GitHub activity integration
+- [ ] Resume download
+- [ ] Analytics dashboard
